@@ -1,0 +1,349 @@
+.de .sdsize,.sd .desize {
+    display: none
+}
+
+#desizes {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    width: 100%;
+    align-items: stretch;
+    text-align: left
+}
+
+.kingai-ext .nav-tabs {
+    text-align: left;
+    margin: inherit;
+    display: flex;
+    padding: 4px
+}
+
+.kingai-ext .nav-tabs li a {
+    color: #333;
+    height: 30px;
+    line-height: 30px
+}
+
+.aistyles.active {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 0
+}
+
+.sselect {
+    margin-left: auto
+}
+
+.slabel {
+    padding: 4px;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    border-radius: 18px;
+    overflow: hidden;
+    cursor: pointer;
+    display: inline-block
+}
+
+.slabel img {
+    border-radius: 14px
+}
+
+.slabel span {
+    position: absolute;
+    font-size: 11px;
+    z-index: 2;
+    bottom: 14px;
+    line-height: 18px;
+    left: 4px;
+    right: 4px;
+    color: #fff;
+    background-color: #00000061;
+    text-align: center
+}
+
+.king-template-leoai .king-footer {
+    display: none
+}
+
+.king-template-leoai .leo-nav {
+    margin-bottom: 0
+}
+
+.ai-create .king-main-in {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start
+}
+
+.ai-create .king-part-custom {
+    flex: 5;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px 20px 20px;
+    background-color: inherit!important
+}
+
+.ai-create .king-part-form {
+    min-width: 230px;
+    padding: 20px;
+    flex: 1;
+    border-radius: 14px;
+    box-shadow: -10px 0 48px rgba(0,0,0,.06);
+    background-color: #fff
+}
+
+.kingai-ext {
+    display: flex;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 14px;
+    gap: 10px;
+    align-items: flex-start
+}
+
+.kingai-ext select {
+    padding: 10px;
+    border-radius: 14px;
+    border: 1px solid #e7e7e9;
+    outline: 0
+}
+
+.kingai-ext .ailabel {
+    padding: 3px 10px;
+    border-radius: 32px;
+    background-color: #fff;
+    color: #0c0b0d;
+    border: 1px solid #e7e7e9;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600
+}
+
+.kingai-ext input:checked + label {
+    background-color: #0c0b0d;
+    color: #fff;
+    border: 0
+}
+
+.kingai-input {
+    border-radius: 14px;
+    box-shadow: 0 2px 6px 0 rgba(0,0,82,.15);
+    position: relative;
+    transition: box-shadow .2s ease-in-out;
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+    background-color: #fff;
+    overflow: hidden
+}
+
+.kingai-input input {
+    flex: 1;
+    padding: 8px 16px;
+    background-color: inherit;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    line-height: 38px
+}
+
+.kingai-input input:focus {
+    box-shadow: none
+}
+
+.ai-submit {
+    background-color: #0c0b0d;
+    color: #fff;
+    border: 0;
+    outline: 0;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 8px
+}
+
+.ai-submit:hover {
+    background-color: #635bff
+}
+
+.ai-submit.loading:hover {
+    background-color: #0c0b0d;
+    cursor: auto
+}
+
+.ai-submit span {
+    display: flex;
+    gap: 10px
+}
+
+.ai-submit .loader,.ai-submit.loading span {
+    display: none
+}
+
+.ai-submit.loading .loader {
+    display: block
+}
+
+.ai-imgs {
+    position: relative;
+    line-height: 0;
+    max-width: 30%
+}
+
+.ai-imgs img {
+    position: relative;
+    border-radius: 14px;
+    width: 100%
+}
+
+#ai-results {
+    display: none;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 0;
+    flex-direction: column
+}
+
+.ai-result {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 0;
+    padding: 20px;
+    background-color: #2b333f0a;
+    border-radius: 14px;
+    flex-wrap: wrap
+}
+
+.ai-result-up {
+    display: flex;
+    width: 100%;
+    gap: 10px;
+    justify-content: center
+}
+
+.ai-result-up span {
+    background-color: #ffffffc2;
+    padding: 6px 14px;
+    border-radius: 14px;
+    color: #0c0b0d
+}
+
+#ai-results p {
+    width: 100%
+}
+
+#king-aimg,#king-rimg,.aidownl {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-color: #0c0b0da8;
+    box-shadow: 0 0 4px rgb(0 0 0 / .42);
+    color: #fff;
+    top: 10px;
+    left: 10px;
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden
+}
+
+#king-aimg:before {
+    content: "\f35b";
+    font-family: "Font Awesome 5 free";
+    font-size: 22px;
+    font-weight: 900
+}
+
+#king-aimg.loading:before {
+    content: "\f1ce";
+    font-family: "Font Awesome 5 free";
+    font-size: 22px;
+    animation: rotateAi 1.4s ease infinite
+}
+
+.aidownl {
+    left: 55px;
+    z-index: 5
+}
+
+#king-rimg {
+    top: 55px;
+    z-index: 5
+}
+
+#king-rimg:hover:before {
+    font-size: 18px
+}
+
+#king-rimg:before {
+    content: "\f2ed";
+    font-family: "Font Awesome 5 free";
+    font-size: 14px;
+    font-weight: 900
+}
+
+@-webkit-keyframes rotateAi {
+    0% {
+        transform: rotate(0deg)
+    }
+
+    100% {
+        transform: rotate(360deg)
+    }
+}
+
+#king-aimg.ldone:before {
+    content: "\f058";
+    color: #fff
+}
+
+#king-aimg.ldone {
+    cursor: auto
+}
+
+.king-template-leoai .snote {
+    background-color: #f6f7f9;
+    padding: 16px 8px;
+    display: block;
+    border-radius: 14px;
+    font-size: 13px;
+    font-weight: bold
+}
+
+@media (max-width: 725px) {
+    .ai-create .king-main-in {
+        align-items:stretch!important;
+        flex-direction: column
+    }
+
+    .ai-create .king-part-custom {
+        flex: 1
+    }
+
+    .ai-create .king-part-form {
+        margin: 20px;
+        flex: 1
+    }
+
+    .ai-submit {
+        font-size: 0;
+        width: 40px
+    }
+
+    .ai-submit i {
+        font-size: 14px
+    }
+
+    .kingai-ext {
+        flex-direction: column
+    }
+}
